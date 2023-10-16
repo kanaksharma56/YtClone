@@ -53,7 +53,7 @@ const Header = () => {
               (<SlMenu className='text-white text-xl' />)}
           </div>
         )}
-        <Link to="/" className='flex h-5 items-center mr-1'>
+        <Link to="/ytclone" className='flex h-5 items-center mr-1'>
           <img className="h-full hidden dark:md:block" src={ytLogo} alt="Youtube" />
           <img className="h-full md:hidden " src={ytLogoMob} alt="Youtube" />
         </Link>
