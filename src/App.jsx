@@ -15,7 +15,7 @@ const App = () => {
     <div className='w-full h-full'>
       <Header />
       <Routes>
-        <Route path="/ytclone" element={<Feed />} />
+        <Route path="/" element={<Feed />} />
         <Route path="/searchResult/:searchQuery" element={<SearchResult />} />
         <Route path="/video/:id" element={<VideoDetails />} />
       </Routes>
