@@ -1,8 +1,10 @@
 import React from 'react'
 import { useState, useContext } from 'react'
 import { Link, useLocation, useNavigate } from 'react-router-dom'
+// import ytLogo from "..//assets/images/yt-logo.png"
 import ytLogo from "../assets/images/yt-logo.png"
 import ytLogoMob from "../assets/images/yt-logo-mobile.png"
+
 
 import { SlMenu } from "react-icons/sl"
 import { IoSearch } from "react-icons/io5"
